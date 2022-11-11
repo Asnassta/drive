@@ -2805,6 +2805,8 @@ body.hidden {
   background-color: #ffffff;
   padding: 145px 0 80px;
   margin-top: -58px; }
+  .documents .title {
+    margin-bottom: 40px; }
   .documents__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2831,7 +2833,7 @@ body.hidden {
   .documents__nav {
     overflow-x: auto;
     margin: 0 -15px 40px;
-    padding: 15px; }
+    padding: 0 15px; }
     .documents__nav .tabs-nav {
       min-width: 590px; }
 
@@ -3017,6 +3019,8 @@ body.hidden {
     right: auto; }
   .documents {
     padding: 125px 0 50px; }
+    .documents .title {
+      margin-bottom: 25px; }
   .conditions__inner {
     display: block; }
   .conditions__view {
