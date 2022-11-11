@@ -3079,7 +3079,11 @@ body.hidden {
   .docs__photo {
     width: 100%;
     margin-top: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .docs .title {
     margin-bottom: 20px; }
   .docs .text {
