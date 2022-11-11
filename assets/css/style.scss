@@ -2674,6 +2674,10 @@ body.hidden {
 			}
 		}
 	}
+	.documents {
+		padding: 50px 0;
+		margin-top: 0;
+	}
 	.stocks {
 		padding: 50px 0 0;
 		&__inner {
@@ -2707,13 +2711,13 @@ body.hidden {
 		padding: 50px 0 0;
 		&__inner {
 			margin-left: 0;
+			//text-align: center;
 			>* {
 				width: 100%;
 				margin-left: 0;
 			}
 		}
 		&__photo {
-			text-align: left;
 			height: auto;
 			margin-bottom: 20px;
 		}
@@ -2878,6 +2882,16 @@ body.hidden {
 			&__qt {
 				font-size: 12px;
 			}
+		}
+	}
+
+	.table {
+		margin: 0 -15px;
+		&__header {
+			padding: 0 15px;
+		}
+		&__content {
+			padding: 0 15px;
 		}
 	}
 }

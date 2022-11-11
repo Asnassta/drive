@@ -744,7 +744,14 @@
   font-size: 16px;
   font-weight: 500;
   color: #1D3A44;
-  line-height: 1.5; }
+  line-height: 1.5;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-filter: drop-shadow(0 0 0 #fff);
+  filter: drop-shadow(0 0 0 #fff);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
   .form-input input::-webkit-input-placeholder {
     color: #828594;
     opacity: 1; }
@@ -3169,6 +3176,9 @@ body.hidden {
     margin: 30px 0 16px; }
   .page-intro__box-text {
     padding: 20px; }
+  .documents {
+    padding: 50px 0;
+    margin-top: 0; }
   .stocks {
     padding: 50px 0 0; }
     .stocks__inner {
@@ -3198,7 +3208,6 @@ body.hidden {
         width: 100%;
         margin-left: 0; }
     .arrange__photo {
-      text-align: left;
       height: auto;
       margin-bottom: 20px; }
   .slide-box {
@@ -3310,7 +3319,13 @@ body.hidden {
       .faq-list__title {
         font-size: 18px; }
       .faq-list__qt {
-        font-size: 12px; } }
+        font-size: 12px; }
+  .table {
+    margin: 0 -15px; }
+    .table__header {
+      padding: 0 15px; }
+    .table__content {
+      padding: 0 15px; } }
 
 @media (max-width: 546px) {
   .title {
