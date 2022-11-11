@@ -3023,6 +3023,10 @@ body.hidden {
     width: 100%; }
     .conditions__view:before {
       right: -15px; }
+    .conditions__view .title {
+      padding-right: 0; }
+    .conditions__view .text {
+      padding-right: 0; }
   .conditions__list {
     width: 100%;
     padding: 24px 0; }
