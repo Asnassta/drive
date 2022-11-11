@@ -2702,7 +2702,10 @@ body.hidden {
     margin-bottom: 8px; }
     .arrange__title span:first-child {
       display: inline-block;
+      width: 13.5px;
       margin-right: 16px; }
+  .arrange .text {
+    padding-left: 34px; }
 
 /*========/arrange===========*/
 /*=======Request========*/

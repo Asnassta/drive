@@ -1973,9 +1973,13 @@ body.hidden {
 		span {
 			&:first-child {
 				display: inline-block;
+				width: 13.5px;
 				margin-right: 16px;
 			}
 		}
+	}
+	.text {
+		padding-left: 34px;
 	}
 }
 /*========/arrange===========*/
